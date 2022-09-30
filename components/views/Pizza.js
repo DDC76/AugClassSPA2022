@@ -1,8 +1,15 @@
 import html from "html-literal";
 
 export default st => `
-<table id="pizzas">
-<tr><th>Crust</th><th>Cheese</th><th>Sauce</th><th>Toppings</th><th>Customer</th></tr>
+    <table id="pizzas">
+      <tr>
+        <th>Crust</th>
+        <th>Cheese</th>
+        <th>Sauce</th>
+        <th>Toppings</th>
+        <th>Customer</th>
+      </tr>
+</tr>
 ${st.pizzas
   .map(pizza => {
     return `<tr><td>${pizza.crust}</td><td>${pizza.cheese}</td><td>${
