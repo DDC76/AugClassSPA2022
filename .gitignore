@@ -4,3 +4,5 @@ dist
 node_modules
 *.sw*
 .env
+.parcel-cache
+package-lock.json
