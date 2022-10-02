@@ -9,7 +9,7 @@ export default st => `
         <th>Toppings</th>
         <th>Customer</th>
       </tr>
-</tr>
+
 ${st.pizzas
   .map(pizza => {
     return `<tr><td>${pizza.crust}</td><td>${pizza.cheese}</td><td>${
